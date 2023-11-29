@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
 
     mg.messages.create('sandbox-123.mailgun.org', {
         from: "Excited User <mailgun@sandbox-123.mailgun.org>",
-        to: ["test@example.com"],
+        to: ["patil.rut@northeastern.edu"],
         subject: "Hello",
         text: "Testing some Mailgun awesomeness!",
         html: "<h1>Testing some Mailgun awesomeness!</h1>"
