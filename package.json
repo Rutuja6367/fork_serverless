@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/csye6225CloudNetworking/serverless#readme",
   "dependencies": {
+    "@google-cloud/storage": "^7.6.0",
     "aws-sdk": "^2.1506.0",
     "axios": "^1.6.2",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "mailgun-js": "^0.22.0"
   }
 }
